@@ -4,7 +4,6 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" media="screen and (max-width:375px)" href="petite_resolution.css" type="text/css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"/>
         <title>Reservia</title>
     </head>
@@ -13,37 +12,34 @@
         <div id="bloc_page">
                                     <!---HEADER-->
             <header>
-                <div class="logo">
-                    <img src="image/reservia.png" alt="logo"/>
-                </div>
-                <ul>
-                    <li>
-                        <a href="#hebergement">Hébergements</a>
-                    </li>
-                    <li>
-                        <a href="#activite"> Activités </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span class="inscrire">
-                                <strong> S'inscrire</strong>
-                            </span>
-                        </a>
-                    </li>
-                </ul>
+                    <div class="logo">
+                        <img src="image/reservia.png" alt="logo"/>
+                    </div>
+                    <div class="menu">
+                        <nav class="ancre">
+                            <a href="#hebergement">Hébergements</a>
+                            <a href="#activite"> Activités </a>
+                        </nav>
+                        <span class="inscrire">
+                            <a href=""><strong> S'inscrire</strong></a>
+                        </span>
+                    </div>
             </header>
                                     <!---SECTION CHOIX-->
             <section>
                 <div id="choix">
                     <div class="intro">
-                        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-                        <p>En plein centre ville ou en pleine nature</p>
+                        <p><strong>Trouvez votre hébergement pour des vacances de rêve</strong><br/>
+                         En plein centre ville ou en pleine nature</p>
                     </div>
                     <form>
                         <div class="input_container">
                             <i class="fas fa-map-marker-alt"></i>
                             <input type="text" class="ville" value="Marseille,France"/>
-                            <input type="button" class="bouton" value="Rechercher"/>
+                            <input type="button" class="bouton" value="Rechercher" />
+                            <a href="">
+                                <i class="fas fa-search"></i>
+                            </a>
                         </div>
                     </form>
                     <div class="filtres">
@@ -105,7 +101,7 @@
                             </div>
                             <div class="hotel_les_mouettes">
                                 <a href="">
-                                    <img src="image/hotel_des_mouettes.jpg" alt="hôtel les mouettes"/>
+                                    <img src="image/hotel_les_mouettes.jpg" alt="hôtel les mouettes"/>
                                     <h3><strong>Hôtel Les mouettes</strong></h3>
                                     <p>Nuit à partir de 76€</p>
                                     <p><span class="b">&#x2605;&#x2605;&#x2605;&#x2605;</span><span class="v">&#x2605;</span></p>
@@ -142,7 +138,8 @@
                     </div>
                     <div id="pop">
                         <div class="haut">
-                            <h2>Les plus populaires</h2> <i class="fas fa-chart-line"></i>
+                            <h2>Les plus populaires</h2> 
+                            <i class="fas fa-chart-line"></i>
                         </div>
                         <div class="hotel_le_soleil_du_matin">
                             <a href="">
@@ -179,7 +176,7 @@
             </section>
                                     <!--SECTION ACTIVITE-->
             <section>
-                <div id="activites">
+                <div id=activites>
                     <h2 id="activite">Activités à Marseille</h2>
                     <div id="choix_activite">
                         <div class="port">
