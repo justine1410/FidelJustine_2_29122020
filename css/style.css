@@ -659,9 +659,9 @@ footer
 }
 
                     /*****STYLE TABLETTE*****/
-@media screen and (min-width:760px) and (max-width:1030px) {
+@media screen and (min-width:760px) and (max-width:1024px) {
     #bloc_page{
-        width: 100%;
+        width: 90%;
         margin-left:0px;
     }
 
@@ -685,36 +685,45 @@ footer
     #dodo{
         flex-direction: column;
         flex-direction: column-reverse;
-        width: 100%;
+        width: 90%;
     }
     #pop{
         width: 100%;
         height:250px; 
         border-radius:0;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
-        margin-bottom:20px;
+        margin-left:15px;
+        margin-bottom:130px;
         border-radius: 20px;
-      
+        background-color: white;
     }
     .populaire{
         display:flex;
         flex-direction: row;
-        width: 100%;
+        width: 90%;
+        margin-left: 50px;;
         margin-top:-30px;
-        justify-content:space-around;
-        
     }
-    .hotel_le_soleil_du_matin,.Au_coeur_de_leau,.tou_bleu_et_blanc{
-        flex-wrap:wrap;
-        width:31%
+    .populaire a{
+        flex-direction: column;
+        align-items: center;
+        width: 160px;
+        height: 190px;
+        margin-left:25px;
     }
     .hotel_le_soleil_du_matin img,.Au_coeur_de_leau img,.tou_bleu_et_blanc img{
-        width:100px;
+        width:180px;
+        height: 140px;
+        margin-left:10px;
+        border-radius:20px;
+        
     }
     .pop{
-        width: 33%;
+        width: 150px;
+        height: 160px;
         margin-left:-30px;
     }
     .auberge img,.hotel_du_port img,.hotel_les_mouettes img,.hotel_de_la_mer img,.auberge_le_panier img,.hotel_chez_amina img{  
@@ -725,31 +734,28 @@ footer
     .auberge,.hotel_du_port,.hotel_les_mouettes,.hotel_de_la_mer,.auberge_le_panier,.hotel_chez_amina{
         height: 190px;
         width: 160px;
-        margin-bottom:15px;
     }
     #bloc{
-        width: 49%;
+        width:330px;;
         height:750px;
         border-radius: 0;
-        justify-content: space-around;
         padding-left:1px;
-        padding-right: 1px;
-        margin-right:-60px;
-        background-color: #f2f2f2;
         border-radius: 30px;
-        margin-left:10px;
-
+        padding-right: 10px;
+        justify-content: space-around;
+        background-color: #f2f2f2;
     }
     .hebergements{
-        width:100%;
+        width: 100%;
         height: 625px;
-        margin-right: 1px;
+        margin-bottom:-20px;
+        padding-right:-10px;
     }
    
    
                                             /*****ACTIVITE*****/
     #activites img{
-        width: 150px;
+        width: 130px;
         height: 135px;
         object-fit: cover;
     }
@@ -761,7 +767,7 @@ footer
         text-align: center;
     }
     #activites a{
-        width:160px;
+        width:140px;
         height: 190px;
         justify-content: center;
         align-items: center;
@@ -773,21 +779,21 @@ footer
         width: 100%;
         height: 625px;
         margin-bottom:-20px;
-        padding-right:-10px;
+        margin-top:10px;
         flex-direction: column;
         flex-wrap:wrap;
     }
     #activites h2{
-        width: 100%;
+        width: 90%;
         margin-top:25px;
         margin-bottom:35px;
     }
     #activites{
         padding-left:5px;
-        margin-left:-350px;
-        margin-top:270px;
         width: 45%;
         height: 790px;
+        margin-left:-240px;
+        margin-top:380px;
         background-color: #f2f2f2;
         border-radius: 30px;
     }
@@ -804,7 +810,7 @@ footer
         margin-right:20px;;
     }
     footer{
-            width: 100%;
+            width: 90%;
             margin-top:-50px;
             justify-content: space-around;
     }
