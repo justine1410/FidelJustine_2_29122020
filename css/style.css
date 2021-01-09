@@ -497,7 +497,6 @@ footer
     }
     header{
         width: 100%;
-        background-color: teal;
     }
     header img{
         width: 90px;
@@ -519,7 +518,7 @@ footer
         margin-left:-80px;
         margin-top:30px;
         margin-bottom:-50px;
-        align-items: baseline;
+        align-items: baseline;;
     }
     .ancre a:hover{
         border-bottom:solid #0065fc;
@@ -531,7 +530,6 @@ footer
         width:240px;
         padding-left: 15px;
         margin-top:20px;
-        background-color: tomato;
     }
     #choix{
        width: 100%;
@@ -545,12 +543,10 @@ footer
         width: 333px;
         padding-left:15px;
         height:47px;
-        background-color: teal;
     }
     .filtres ul{
         flex-wrap: wrap;
         width: 333px;;
-        background-color: turquoise;
     }
     .filtres a{
         margin-left:-35px;
@@ -563,7 +559,6 @@ footer
         flex-wrap: wrap;
         margin-top: 10px;
         padding-left:15px;
-        background-color: wheat;
     }
     .fa-info{
         margin-bottom:15px;
