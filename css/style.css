@@ -484,7 +484,7 @@ footer
     margin-top: 58px;
 }
                 /*****style mobile*****/
-@media screen and (min-width:320px) and (max-width:750px){
+@media screen and (min-width:300px) and (max-width:750px){
     #bloc_page{
         width: 90%;
         margin-left:-5px;
@@ -584,12 +584,13 @@ footer
        
     }
     .hotel_le_soleil_du_matin a,.Au_coeur_de_leau a,.tou_bleu_et_blanc a{
-        width:333px;
+        width:325px;
         height:145px;
+
 
     }
     .hotel_le_soleil_du_matin,.Au_coeur_de_leau,.tou_bleu_et_blanc{
-        width: 333px;
+        width: 325px;
     }
     #pop{
         width: 100%;
@@ -615,7 +616,7 @@ footer
         width: 333px;
     }
     #bloc{
-        width: 90%;
+        width: 100%;
         height:1370px;
         justify-content: space-between;
         padding-left:10px;
@@ -644,7 +645,7 @@ footer
         width: 90%;
     }
     #activites{
-        width: 90%;
+        width: 100%;
         margin-top:-70px;
         padding-left:15px;
     }
@@ -654,7 +655,8 @@ footer
     }
     footer{
         flex-direction: column;
-        width: 90%;
+        width: 100%;
+        background-color: #f2f2f2;
         margin-top:20px;
     }
 }
