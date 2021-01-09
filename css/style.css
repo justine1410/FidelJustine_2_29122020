@@ -512,7 +512,7 @@ footer
         align-items: baseline;
     }
     .ancre{
-        width: 100%;
+        width: 90%;
         justify-content: space-around;
         align-items: flex-start;
         margin-left:-80px;
@@ -580,7 +580,7 @@ footer
                                             /*****HEBERGEMENT*****/
     #dodo{
         flex-direction: column-reverse;
-        width: 100%;
+        width: 90%;
        
     }
     .hotel_le_soleil_du_matin a,.Au_coeur_de_leau a,.tou_bleu_et_blanc a{
@@ -593,8 +593,9 @@ footer
         width: 325px;
     }
     #pop{
-        width: 100%;
+        width: 325px;
         height: 578px; 
+        margin-left:15px;
         border-radius:0;
     }
     .auberge img,.hotel_du_port img,.hotel_les_mouettes img,.hotel_de_la_mer img,.auberge_le_panier img,.hotel_chez_amina img{
