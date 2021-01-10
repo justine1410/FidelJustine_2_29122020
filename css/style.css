@@ -30,6 +30,7 @@ header img
 .inscrire
 {
     display:flex;
+    margin-left:15px;
 }
 .inscrire a{
     color: #0065fc;
@@ -38,10 +39,12 @@ header img
 {
     display: flex;
     align-items: flex-end;
+    padding-left:40px;
 }
 .ancre a
 {
     color: black;
+    margin-left:15px;
 }
 .menu
 {
@@ -51,7 +54,6 @@ header img
 header a{
     display: flex;
     text-decoration: none;
-    width: 100%;
     align-items: flex-end;
     justify-content: center;
 }
@@ -59,7 +61,7 @@ header a{
 {
     border-top: solid #0065fc;
     color: #0065fc;
-    padding-top: 10px;
+    padding-top: 60px;
 }
 
 header
@@ -473,12 +475,6 @@ footer
 
 
 
-
-
-
-
-
-
                 /*****style mobile*****/
 @media screen and (min-width:300px) and (max-width:750px){
     #bloc_page{
@@ -499,13 +495,17 @@ footer
         flex-wrap:wrap-reverse;
     }
     .ancre{
-        width: 90%;
-        justify-content: space-around;
+        width: 80%;
         align-items: flex-start;
         margin-left:-80px;
-        margin-top:30px;
+        margin-top:60px;
         margin-bottom:-50px;
-        align-items: baseline;;
+        padding-left:-50px;
+        align-items: baseline;
+    }
+    .ancre a{
+        margin-left:-10px;
+        margin-right:100px;
     }
     .ancre a:hover{
         border-bottom:solid #0065fc;
@@ -576,6 +576,7 @@ footer
     }
     .hotel_le_soleil_du_matin,.Au_coeur_de_leau,.tou_bleu_et_blanc{
         margin-left:30px;
+        height: 145px;
     }
     
     .auberge,.hotel_du_port,.hotel_les_mouettes,.hotel_de_la_mer,.auberge_le_panier,.hotel_chez_amina{
@@ -643,7 +644,3 @@ footer
         margin-top:20px;
     }
 }
-
-                    /*****STYLE TABLETTE*****/
-@media screen and (min-width:760px) and (max-width:1200px) {
-  
