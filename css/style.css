@@ -2,7 +2,8 @@
 {
     font-family: raleway, arial;
     font-size: 12px;
-    margin:0px 30px 0px 30px;
+    max-width: 1500px;
+    margin: auto;
 }
 
 #bloc_page .b
@@ -28,7 +29,6 @@ header img
 }
 .inscrire
 {
-
     display:flex;
 }
 .inscrire a{
@@ -51,7 +51,7 @@ header img
 header a{
     display: flex;
     text-decoration: none;
-    width: 150px;
+    width: 100%;
     align-items: flex-end;
     justify-content: center;
 }
@@ -169,7 +169,7 @@ header
 #choix
 {
     display:flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 .fa-info
 {
@@ -180,7 +180,6 @@ header
     background-color: white;
     padding: 5px 8px 5px 8px;
     margin-right: 5px;
-    
 }
 .info
 {
@@ -198,7 +197,7 @@ header
     justify-content: center;
     align-items: center;
     line-height: 0.1em;
-    width: 245px;
+    width: 30%;
     height: 199px;
     margin-bottom: 20px;
     background-color: white;
@@ -209,7 +208,8 @@ header
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     margin-top:2px;
-    width: 240px;
+    margin-left:2px;
+    width: 98%;
     height: 140px;
     object-fit: cover;
 }
@@ -218,6 +218,7 @@ header
     text-decoration: none;
     text-align: left;
     color: black;
+    
 }
 #bloc a:hover
 {
@@ -229,10 +230,10 @@ header
     flex-direction:row;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 840px;
+    width: 100%;
     height: 500px;
+    margin-top:20px;
     background-color: #f2f2f2;
-
 }
 
 #bloc
@@ -242,18 +243,12 @@ header
     justify-content: center;
     padding-right: 30px;
     padding-left: 30px;
-    background-color: #f2f2f2;
-    height: 600px;
-    width: 860px;
+    background-color: #f2f2f2; 
+    width: 60%;
     padding-bottom:40px;
     border-radius: 20px;
 }
                     /*****SECTION POPULAIRE*****/
-#pop .haut
-{
-    display:flex;
-    justify-content: space-around;
-}
 .haut h2
 {
     margin-right:80px;
@@ -270,35 +265,40 @@ header
 {
     display: flex;
     align-items: center;
-    width: 341px;;
+    justify-content: space-around;
+    width: 80%;
+    margin-top:20px;
 }
 .pop
 {
     display: flex;
     flex-direction: column;
-    width: 133px;
+    width: 40%;
+    height: 80%;
+    margin-top:10px;
     font-style: normal;
+    margin-left: -30px;
 }
 .hotel_le_soleil_du_matin,.Au_coeur_de_leau,.tou_bleu_et_blanc
 {
-    width: 345px;
-    height: 144px;
+    width: 80%;
+    height: 25%;
     border-radius: 20px;
     background-color: white; 
-    margin-bottom: 20px;
+    margin-top:30px;
+    margin-left:60px;
     border: solid white;
     box-shadow: -1px 5px 15px -3px #e3e3e3; 
 }
 .hotel_le_soleil_du_matin img,.Au_coeur_de_leau img,.tou_bleu_et_blanc img
 {
-    width: 119px;
-    height: 134px;
+    width: 45%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     float: left;
     padding: 2px 2px 2px 1px;
     margin-right:40px;
-    object-fit: cover;  
+    object-fit: cover; 
 }
 .hotel_le_soleil_du_matin a,.Au_coeur_de_leau a,.tou_bleu_et_blanc a
 {
@@ -306,7 +306,8 @@ header
     color: black;
     display: flex;
     border-radius:20px;
-    width: 340px;
+    width: 100%;
+    height: 100%;
 }
 .hotel_le_soleil_du_matin a:hover,.Au_coeur_de_leau a:hover,.tou_bleu_et_blanc a:hover
 {
@@ -316,12 +317,10 @@ header
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: #f2f2f2;
     border-radius: 20px;
-    width: 421px;
-    height: 600px;
+    width: 30%;
 }
 #dodo
 {
@@ -336,17 +335,31 @@ header
     margin-left:10px;
 }
 .port img, .les_calanques img{
-    width: 301px;
-    height: 390px;
+    width: 100%;
+    height: 90%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
     box-shadow: -1px 5px 15px -3px #e3e3e3;
 }
+.port a,.les_calanques a
+{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 90%;
+    border-radius: 20px; 
+    box-shadow: -1px 5px 15px -3px #e3e3e3;
+}
+.port,.les_calanques
+{
+    width: 30%;
+    height: 460px;
+}
 .pomegue img
 {
-    width: 304px;
-    height: 180px;
+    width: 100%;
+    height: 170px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
@@ -354,47 +367,20 @@ header
 }
 .frioul img
 {
-    width: 304px;
-    height: 109px;
+    width: 100%;
+    height: 100px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     object-fit: cover;
     box-shadow: -1px 5px 15px -3px #e3e3e3;
 }
-.notre_dame img
-{
-    width: 304px;
-    height: 137px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    object-fit: cover;
-    box-shadow: -1px 5px 15px -3px #e3e3e3;
-}
-.longchamp img
-{
-    width: 304px;
-    height: 154px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    object-fit: cover;
-    box-shadow: -1px 5px 15px -3px #e3e3e3;
-}
-#choix_activite a
-{
-    text-decoration: none;
-    color: black;
-}
-#choix_activite a:hover
-{
-    color: blue;
-}
-.port a,.les_calanques a
+.frioul a
 {
     display: flex;
     flex-direction: column;
-    width: 301px;
-    height: 443px;
-    border-radius: 20px; 
+    border-radius: 20px;
+    width: 80%;
+    height: 90%;
     box-shadow: -1px 5px 15px -3px #e3e3e3;
 }
 .pomegue a
@@ -402,54 +388,55 @@ header
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    width: 304px;
-    height: 241px;
+    width: 80%;
+    height:20%;
+    margin-bottom: 60px;
     box-shadow: -1px 5px 15px -3px #e3e3e3;
-    margin-bottom: 40px;
 }
-.frioul a
+.pofri{
+    width: 30%;
+    height:460px;
+}
+.notre_dame img,.longchamp img
+{
+    width: 100%;
+    height: 80%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    object-fit: cover;
+    box-shadow: -1px 5px 15px -3px #e3e3e3;
+}
+.notre_dame a,.longchamp a
 {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    width: 304px;
+    width: 80%;
+    height: 70%;
     box-shadow: -1px 5px 15px -3px #e3e3e3;
 }
-.notre_dame a 
-{
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    width: 304px;
-    height: 197px;
-    box-shadow: -1px 5px 15px -3px #e3e3e3;
-    margin-bottom: 40px;
-}
-.longchamp a
-{
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    width: 304px;
-    height: 210px;
-    box-shadow: -1px 5px 15px -3px #e3e3e3;
-}
-.pofri
+.dalon
 { 
     display: flex;
     flex-direction: column;
+    width: 30%;
+    height:460px;
 }
-.dalon
+#choix_activite a
 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    text-decoration: none;
+    color:black
+}
+#choix_activite a:hover
+{
+    color: blue;
 }
 #choix_activite
 {
     display: flex;
     justify-content: space-between;
     margin-right: 50px;
+    width: 100%;
 }
 #activites
 {
@@ -483,20 +470,25 @@ footer
     background-color: #f2f2f2;
     margin-top: 58px;
 }
+
+
+
+
+
+
+
+
+
                 /*****style mobile*****/
 @media screen and (min-width:300px) and (max-width:750px){
     #bloc_page{
-        width: 90%;
-        margin-left:-5px;
+        width: 100%;
     }
                                             /*****HEADER*****/
     span.inscrire{
         display: flex;
         justify-content: center;
         margin-left:170px;
-    }
-    header{
-        width: 90%;
     }
     header img{
         width: 90px;
@@ -505,11 +497,6 @@ footer
     }
     .menu{
         flex-wrap:wrap-reverse;
-    }
-    header a{
-        margin-top:10px;
-        width: 90%;
-        align-items: baseline;
     }
     .ancre{
         width: 90%;
@@ -525,47 +512,41 @@ footer
         padding-bottom:20px;
         border-top:none;
     }
+
                                             /*****SECTION CHOIX*****/
     .intro{
-        width:240px;
+        width: 70%;
         padding-left: 15px;
         margin-top:20px;
     }
     #choix{
-       width: 90%;
-       margin-top:65px;
-       border-top: solid #f2f2f2;
-    }
-    .fa-map-marker-alt{
-        padding:16px 20px 16px 19px;
-    }
-    .input_container{
-        width: 333px;
+        width: 100%;
+        margin-top:65px;
+        border-top: solid #f2f2f2;
+     }
+     .input_container{
+        width:80%;
         padding-left:15px;
-        height:47px;
     }
     .filtres ul{
         flex-wrap: wrap;
-        width: 333px;;
+        padding-left:-20px;
     }
     .filtres a{
-        margin-left:-35px;
-        margin-right: 25px;
+        margin-left: -25px;
+        padding-right:0px;
     }
     #choix .filtres{
-        width:90%;
+        width:95%;
         flex-direction:column;
         align-items: flex-start;
         flex-wrap: wrap;
         margin-top: 10px;
         padding-left:15px;
     }
-    .fa-info{
-        margin-bottom:15px;
-        margin-right:7px;
-    }
     .info{
-        width: 250px;
+        width: 75%;
+        align-items: baseline;
         margin-bottom: 10px;
         margin-top:10px;
         margin-left:15px;
@@ -580,47 +561,36 @@ footer
                                             /*****HEBERGEMENT*****/
     #dodo{
         flex-direction: column-reverse;
-        width: 90%;
-       
+        width: 100%;
     }
-    .hotel_le_soleil_du_matin a,.Au_coeur_de_leau a,.tou_bleu_et_blanc a{
-        width:325px;
-        height:145px;
-
-
+    #pop h2{
+        margin-right:20px;
     }
-    .hotel_le_soleil_du_matin,.Au_coeur_de_leau,.tou_bleu_et_blanc{
-        width: 325px;
+    #pop .haut{
+        margin-bottom:-30px;
     }
     #pop{
-        width: 325px;
-        height: 578px; 
-        margin-left:15px;
+        width: 100%;
+        padding-bottom:20px;
         border-radius:0;
     }
-    .auberge img,.hotel_du_port img,.hotel_les_mouettes img,.hotel_de_la_mer img,.auberge_le_panier img,.hotel_chez_amina img{
-        width:90%;
-        margin-top:-20px;
-        height: 115px;
-        width: 333px;
-        object-fit: cover;
+    .hotel_le_soleil_du_matin,.Au_coeur_de_leau,.tou_bleu_et_blanc{
+        margin-left:30px;
     }
+    
     .auberge,.hotel_du_port,.hotel_les_mouettes,.hotel_de_la_mer,.auberge_le_panier,.hotel_chez_amina{
-        height: 200px;
-        width: 333px;
         margin-bottom:2px;
+        width: 95%;
     }
     .hebergements{
         flex-direction: column;
         height:1250px;
         background-color: white;
-        width: 333px;
     }
     #bloc{
-        width: 90%;
-        height:1370px;
+        width: 80%;
+        height:1330px;
         justify-content: space-between;
-        padding-left:10px;
         margin-top: 20px;
         background-color: white;
     }
@@ -629,34 +599,46 @@ footer
         width: 90%;
     }
                                                 /*****ACTIVITE*****/
-    #activites img{
-        width: 333px;
-        height: 135px;
-        object-fit: cover;
+    .port,.les_calanques,.dalon,.pofri{
+        width: 100%;
+        height: 1600px;
     }
-    #activites a{
-        width:333px;
-        height: 199px;
-        margin-bottom:15px;
+    .port,.les_calanques{
+        height: 190px;
+        margin-top:20px;
+    }
+   .dalon,.pofri{
+       height: 400px;
+       margin-top:20px;
+   }
+    .port a,.les_calanques a,.dalon a,.pofri a{
+        width: 95%;
+        height:190px;
+        margin-bottom:20px;
+    }
+    #choix_activite img{
+        height:135px ;
     }
     #choix_activite{
         flex-direction: column;
+        width: 100%;
     }
     #activites h2{
         width: 90%;
     }
     #activites{
-        width: 90%;
+        width: 85%;
         margin-top:-70px;
-        padding-left:15px;
+        padding-left:20px;
     }
                                             /*****FOOTER*****/
     .propos,.nos_hebergement,.assistance{
-        width: 333px;
+        width: 60%;
     }
     footer{
         flex-direction: column;
-        width: 90%;
+        width: 100%;
+        
         background-color: #f2f2f2;
         margin-top:20px;
     }
@@ -664,157 +646,4 @@ footer
 
                     /*****STYLE TABLETTE*****/
 @media screen and (min-width:760px) and (max-width:1200px) {
-    #bloc_page{
-        width: 90%;
-        margin-left:0px;
-    }
-
-                                            /*****FILTRE*****/
-    .filtres ul{
-        flex-direction: row;
-        width: 85%;
-    }
-    .filtres a{
-        margin-left:-30px;
-        width: 100%;
-        height: 50px;
-    }
-    #choix .filtres{
-        width:100%;
-        align-items: center;
-        justify-content: flex-start;
-        margin-top: 10px;
-    }
-                                            /*****HEBERGEMENT*****/
-    #dodo{
-        flex-direction: column;
-        flex-direction: column-reverse;
-        width: 90%;
-    }
-    #pop{
-        width: 100%;
-        height:250px; 
-        border-radius:0;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        margin-left:15px;
-        margin-bottom:130px;
-        border-radius: 20px;
-        background-color: white;
-    }
-    .populaire{
-        display:flex;
-        flex-direction: row;
-        width: 90%;
-        margin-left: 50px;;
-        margin-top:-30px;
-    }
-    .populaire a{
-        flex-direction: column;
-        align-items: center;
-        width: 160px;
-        height: 190px;
-        margin-left:25px;
-    }
-    .hotel_le_soleil_du_matin img,.Au_coeur_de_leau img,.tou_bleu_et_blanc img{
-        width:180px;
-        height: 140px;
-        margin-left:10px;
-        border-radius:20px; 
-    }
-    .pop{
-        width: 150px;
-        height: 160px;
-        margin-left:-30px;
-    }
-    .auberge img,.hotel_du_port img,.hotel_les_mouettes img,.hotel_de_la_mer img,.auberge_le_panier img,.hotel_chez_amina img{  
-        height: 135px;
-        width: 150px;
-        object-fit: cover;
-    }
-    .auberge,.hotel_du_port,.hotel_les_mouettes,.hotel_de_la_mer,.auberge_le_panier,.hotel_chez_amina{
-        height: 190px;
-        width: 160px;
-    }
-    #bloc{
-        width:330px;;
-        height:750px;
-        border-radius: 0;
-        padding-left:1px;
-        border-radius: 30px;
-        padding-right: 10px;
-        justify-content: space-around;
-        background-color: #f2f2f2;
-    }
-    .hebergements{
-        width: 100%;
-        height: 625px;
-        margin-bottom:-20px;
-        padding-right:-10px;
-    }
-   
-   
-                                            /*****ACTIVITE*****/
-    #activites img{
-        width: 130px;
-        height: 135px;
-        object-fit: cover;
-    }
-    .notre_dame img,.les_calanques img{
-        margin-top:5px;
-    }
-    .notre_dame h3, .les_calanques h3{
-        margin-bottom:-1px;
-        text-align: center;
-    }
-    #activites a{
-        width:140px;
-        height: 190px;
-        justify-content: center;
-        align-items: center;
-        margin-bottom:15px;
-        background-color: white;
-    }
-
-    #choix_activite{
-        width: 100%;
-        height: 625px;
-        margin-bottom:-20px;
-        margin-top:10px;
-        flex-direction: column;
-        flex-wrap:wrap;
-    }
-    #activites h2{
-        width: 90%;
-        margin-top:25px;
-        margin-bottom:35px;
-    }
-    #activites{
-        padding-left:5px;
-        width: 45%;
-        height: 790px;
-        margin-left:-250px;
-        margin-top:380px;
-        background-color: #f2f2f2;
-        border-radius: 30px;
-    }
-    section{
-        display:flex;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-bottom:-60px;
-    }
-                                          /*****FOOTER*****/
-   
-    .propos,.nos_hebergement,.assistance{
-        width: 35%;
-        margin-right:20px;;
-    }
-    footer{
-            width: 90%;
-            margin-top:-50px;
-            justify-content: space-around;
-    }
-}
+  
