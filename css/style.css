@@ -502,10 +502,12 @@ footer
         margin-bottom:-50px;
         padding-left:-50px;
         align-items: baseline;
+        background-color:darkblue
     }
     .ancre a{
         margin-left:-10px;
-        margin-right:100px;
+        margin-right:80px;
+        background-color: darkcyan;
     }
     .ancre a:hover{
         border-bottom:solid #0065fc;
