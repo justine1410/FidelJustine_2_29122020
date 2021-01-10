@@ -475,6 +475,8 @@ footer
 
 
 
+
+
                 /*****style mobile*****/
 @media screen and (min-width:300px) and (max-width:750px){
     #bloc_page{
@@ -640,6 +642,102 @@ footer
         flex-direction: column;
         width: 100%;
         
+        background-color: #f2f2f2;
+        margin-top:20px;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width:750px) and (max-width:1100px){
+                                              
+                                                /*****SECTION HEBERGEMENT*****/
+    #dodo{
+        flex-direction: column-reverse;
+    }
+    .populaire{
+        display: flex;
+        flex-direction:row;
+        padding-bottom: 20px;
+        align-items: baseline;
+        width: 100%;
+    }
+    #pop{
+        width: 100%;
+        background-color: white;
+        margin-left:15px;
+    }
+    .pop
+    {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 135px;
+        margin-top:-5px;
+        font-style: normal;
+        margin-left:0px;
+    }
+    .haut{
+        margin-left:-90px;
+    }
+    .hotel_le_soleil_du_matin,.Au_coeur_de_leau,.tou_bleu_et_blanc{
+        width: 80%;
+        height: 135px;
+        margin-left:20px;
+    }
+    .hotel_le_soleil_du_matin img,.Au_coeur_de_leau img,.tou_bleu_et_blanc img{
+        margin-right:0px;
+        width: 50%; ;
+    }
+    #bloc{
+        width: 92%;
+        margin-top:10px;
+        margin-left:15px;
+    }
+                                            /*****ACTIVITE*****/
+    
+    .port a,.les_calanques a{
+        width: 90%;
+    }
+    .port img,.les_calanques img{
+        height: 80%;
+    }
+    .dalon{
+        width: 30%;
+        height:460px;
+    }
+    .notre_dame img,.longchamp img{
+        height: 60%;
+    }  
+    .pofri a{
+        width: 90%;
+    }
+    .notre_dame a,.longchamp a{
+        width: 90%;
+        height:80%;
+        margin-bottom:60px;
+    }
+    #choix_activite{
+        width: 100%;
+    }
+    #activites{
+        width: 97%;
+        margin-top:-50px;
+        margin-left:15px;
+        padding-left:20px;
+        background-color: #f2f2f2;
+        border-radius: 20px;
+        
+    }
+                                            /*****FOOTER*****/
+    .propos,.nos_hebergement,.assistance{
+        width: 60%;
+    }
+    footer{
+        width: 100%;
         background-color: #f2f2f2;
         margin-top:20px;
     }
