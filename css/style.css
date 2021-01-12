@@ -1,4 +1,7 @@
-
+body{
+    margin:0;
+    padding:0;
+}
 #bloc_page
 {
     font-family: 'Open Sans', sans-serif;
@@ -39,8 +42,6 @@ header img
 .ancre 
 {
     display: flex;
-    align-items: flex-end;
-    padding-left:40px;
 }
 .ancre a
 {
@@ -69,7 +70,7 @@ header
 {
     display: flex;
     justify-content: space-between;
-    height: 40px;
+    
     margin-top:40px;
 }
 
@@ -136,11 +137,6 @@ header
 {
     margin: 15px 10px 15px 10px; 
 }
-.filtres li
-{
-    margin-top: 10px;
-    margin-right: 24px;
-}
 .fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog
 {
     color:#0065fc;
@@ -154,6 +150,10 @@ header
 {
     list-style-type: none;
     display: flex;
+    width: 60%;
+    padding-left:0;
+    justify-content: space-around;
+    align-content: flex-start;
 }
 .filtres a:hover
 {
@@ -242,18 +242,12 @@ header
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 30px;
-    padding-left: 30px;
     background-color: #f2f2f2; 
     width: 60%;
-    padding-bottom:40px;
     border-radius: 20px;
+    padding:30px;
 }
                     /*****SECTION POPULAIRE*****/
-.haut h2
-{
-    margin-right:80px;
-}
 .fa-chart-line
 {
     margin-left: 80px;
@@ -267,16 +261,20 @@ header
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 80%;
+    width: 100%
+}
+.populaire{
     margin-top:20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
 }
 .pop
 {
     display: flex;
     flex-direction: column;
-    width: 40%;
     height: 80%;
-    margin-top:-7px;
     font-style: normal;
     margin-left: -30px;
 }
@@ -285,13 +283,11 @@ header
 }
 .hotel_pop
 {
-    width: 80%;
     height: 25%;
     border-radius: 20px;
-    margin-top:30px;
-    margin-left:60px;
     border: solid white;
-    box-shadow: -1px 5px 15px -3px #e3e3e3; 
+    box-shadow: -1px 5px 15px -3px #e3e3e3;
+    margin-bottom:15px; 
 }
 .hotel_pop img
 {
@@ -324,13 +320,14 @@ header
     align-items: center;
     background-color: #f2f2f2;
     border-radius: 20px;
-    width: 30%;
+    width: 25%;
+    padding:30px;
 }
 #dodo
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom:64px;
 }
                     /*****ACTIVITE*****/
@@ -350,14 +347,13 @@ header
 {
     display: flex;
     flex-direction: column;
-    width: 70%;
     height: 90%;
     border-radius: 20px; 
     box-shadow: -1px 5px 15px -3px #e3e3e3;
 }
 .port,.les_calanques
 {
-    width: 35%;
+    width: 23%;
     height: 470px;
 }
 .pomegue img
@@ -398,13 +394,13 @@ header
     box-shadow: -1px 5px 15px -3px #e3e3e3;
 }
 .pofri{
-    width: 30%;
+    width: 23%;
     height:460px;
 }
 .notre_dame img,.longchamp img
 {
     width: 100%;
-    height: 80%;
+    height: 70%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     object-fit: cover;
@@ -415,7 +411,6 @@ header
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    width: 80%;
     height: 70%;
     box-shadow: -1px 5px 15px -3px #e3e3e3;
 }
@@ -423,7 +418,7 @@ header
 { 
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 23%;
     height:460px;
 }
 #choix_activite a
@@ -439,14 +434,13 @@ header
 {
     display: flex;
     justify-content: space-between;
-    margin-right: 50px;
+    align-items: flex-end;
     width: 100%;
 }
 #activites
 {
     display:flex;
     flex-direction: column;
-    padding-left:50px;
 }
                     /*****FOOTER*****/
 .propos,.nos_hebergement,.assistance
@@ -454,7 +448,6 @@ header
     display: flex;
     flex-direction: column;
     width: 20%;
-    margin-right: 150px;
 }
 footer li
 {
@@ -471,6 +464,7 @@ footer
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     display: flex;
+    justify-content: space-around;
     background-color: #f2f2f2;
     margin-top: 58px;
 }
@@ -488,7 +482,8 @@ footer
     span.inscrire{
         display: flex;
         justify-content: center;
-        margin-left:170px;
+        margin-left:120px;
+        margin-top: 20px;
     }
     header img{
         width: 90px;
@@ -499,15 +494,12 @@ footer
         flex-wrap:wrap-reverse;
     }
     .ancre{
-        width: 80%;
         align-items: flex-start;
-        margin-left:-80px;
         margin-top:60px;
         margin-bottom:-50px;
-        align-items: baseline;
+        margin-left: -60px;
     }
     .ancre a{
-        margin-left:-10px;
         margin-right:70px;
     }
     .ancre a:hover{
@@ -523,7 +515,7 @@ footer
         margin-top:20px;
     }
     #choix{
-        width: 95%;
+        width: 100%;
         margin-top:65px;
         border-top: solid #f2f2f2;
      }
@@ -543,22 +535,21 @@ footer
     .filtres ul li:nth-child(2){
         order:4
     }
+  
     .filtres ul{
         flex-direction: column;
         flex-wrap: wrap;
         align-items: baseline;
-        margin-left:-30px;
-        margin-right: -20px;
-        height:250px;
+        height:200px;
         width: 95%;
+        justify-content: flex-start;
     }
    
     #choix .filtres{
-        width:95%;
         flex-direction:column;
         align-items: flex-start;
         flex-wrap: wrap;
-        margin-top: 10px;
+        margin-left: 10px;
     }
     .info{
         width: 75%;
@@ -577,7 +568,7 @@ footer
                                             /*****HEBERGEMENT*****/
     #dodo{
         flex-direction: column-reverse;
-        width: 95%;
+        width: 100%;
     }
     #pop h2{
         margin-right:20px;
@@ -597,7 +588,6 @@ footer
         margin-top:-15px;
     }
     .hotel_pop{
-        margin-left:30px;
         height: 145px;  
     }
     .hotel{
@@ -610,7 +600,7 @@ footer
         background-color: white;
     }
     #bloc{
-        width: 80%;
+        width: 95%;
         height:1330px;
         justify-content: space-between;
         margin-top: 20px;
@@ -649,7 +639,7 @@ footer
         width: 90%;
     }
     #activites{
-        width: 85%;
+        width: 100%;
         margin-top:-70px;
         padding-left:20px;
     }
@@ -671,13 +661,15 @@ footer
 
 
 
-@media screen and (min-width:750px) and (max-width:1100px){
+@media screen and (min-width:750px) and (max-width:1100px){  
+    #choix .filtres{
+        width: 100%;
+        justify-content: space-around;
+    }    
     .filtres ul{
-        margin-left:-30px; 
-    }  
-    .filtres a{
-        margin-right:-20px;
-    }                           
+        width: 100%;
+
+    }        
                                                 /*****SECTION HEBERGEMENT*****/
     #dodo{
         flex-direction: column-reverse;
@@ -685,44 +677,29 @@ footer
     .populaire{
         display: flex;
         flex-direction:row;
-        padding-bottom: 20px;
-        align-items: baseline;
-        width: 100%;
     }
     #pop{
-        width: 100%;
+        width: 92%;
         background-color: white;
-        margin-left:15px;
-    }
-    .populaire a{
-        width: 90%;
     }
     .pop
     {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        height: 135px;
-        margin-top:-5px;
-        font-style: normal;
         margin-left:0px;
     }
     .haut{
         margin-left:-90px;
     }
     .hotel_pop{
-        width: 80%;
         height: 135px;
-        margin-left:20px;
     }
     .hotel_pop img{
         margin-right:0px;
-        width: 50%; ;
     }
     #bloc{
         width: 92%;
         margin-top:10px;
-        margin-left:15px;
     }
                                             /*****ACTIVITE*****/
     
