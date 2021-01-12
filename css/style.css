@@ -189,7 +189,7 @@ header
     margin-bottom: 21px;
 }
                     /****HEBERGEMENT*****/
-.auberge,.hotel_du_port,.hotel_les_mouettes,.hotel_de_la_mer,.auberge_le_panier,.hotel_chez_amina
+.hotel
 {
     display: flex;
     flex-direction: column;
@@ -204,7 +204,7 @@ header
     background-color: white;
     box-shadow: -1px 5px 15px -3px #e3e3e3;
 }
-.auberge img,.hotel_du_port img,.hotel_les_mouettes img,.hotel_de_la_mer img,.auberge_le_panier img,.hotel_chez_amina img
+.hotel img
 {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -276,22 +276,24 @@ header
     flex-direction: column;
     width: 40%;
     height: 80%;
-    margin-top:10px;
+    margin-top:-7px;
     font-style: normal;
     margin-left: -30px;
 }
-.hotel_le_soleil_du_matin,.Au_coeur_de_leau,.tou_bleu_et_blanc
+.populaire .star{
+    margin-top:-30px;
+}
+.hotel_pop
 {
     width: 80%;
     height: 25%;
     border-radius: 20px;
-    
     margin-top:30px;
     margin-left:60px;
     border: solid white;
     box-shadow: -1px 5px 15px -3px #e3e3e3; 
 }
-.hotel_le_soleil_du_matin img,.Au_coeur_de_leau img,.tou_bleu_et_blanc img
+.hotel_pop img
 {
     width: 45%;
     border-top-left-radius: 20px;
@@ -301,7 +303,7 @@ header
     margin-right:40px;
     object-fit: cover; 
 }
-.hotel_le_soleil_du_matin a,.Au_coeur_de_leau a,.tou_bleu_et_blanc a
+.hotel_pop a
 {
     text-decoration: none;
     color: black;
@@ -311,7 +313,7 @@ header
     width: 100%;
     height: 100%;
 }
-.hotel_le_soleil_du_matin a:hover,.Au_coeur_de_leau a:hover,.tou_bleu_et_blanc a:hover
+.hotel_pop a:hover
 {
     color: #0065fc;
 }
@@ -594,11 +596,11 @@ footer
     .pop{
         margin-top:-15px;
     }
-    .hotel_le_soleil_du_matin,.Au_coeur_de_leau,.tou_bleu_et_blanc{
+    .hotel_pop{
         margin-left:30px;
         height: 145px;  
     }
-    .auberge,.hotel_du_port,.hotel_les_mouettes,.hotel_de_la_mer,.auberge_le_panier,.hotel_chez_amina{
+    .hotel{
         margin-bottom:2px;
         width: 95%;
     }
@@ -695,10 +697,6 @@ footer
     .populaire a{
         width: 90%;
     }
-    .hotel_le_soleil_du_matin,.Au_coeur_de_leau,.tou_bleu_et_blanc{
-        width: 300px;
-        margin-left:0px;
-    }
     .pop
     {
         display: flex;
@@ -712,12 +710,12 @@ footer
     .haut{
         margin-left:-90px;
     }
-    .hotel_le_soleil_du_matin,.Au_coeur_de_leau,.tou_bleu_et_blanc{
+    .hotel_pop{
         width: 80%;
         height: 135px;
         margin-left:20px;
     }
-    .hotel_le_soleil_du_matin img,.Au_coeur_de_leau img,.tou_bleu_et_blanc img{
+    .hotel_pop img{
         margin-right:0px;
         width: 50%; ;
     }
