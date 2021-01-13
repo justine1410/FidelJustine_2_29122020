@@ -6,7 +6,7 @@ body{
 {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    max-width: 1200px;
+    max-width: 1250px;
     margin: auto;
 }
 
@@ -30,6 +30,7 @@ header img
 {
     width: 96px;
     height: 40px;
+    padding-top:40px;
 }
 .inscrire
 {
@@ -47,6 +48,7 @@ header img
 {
     color: black;
     margin-left:15px;
+    padding-top:40px
 }
 .menu
 {
@@ -63,7 +65,7 @@ header a{
 {
     border-top: solid #0065fc;
     color: #0065fc;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 header
@@ -214,17 +216,6 @@ header
     height: 140px;
     object-fit: cover;
 }
-#bloc a
-{
-    text-decoration: none;
-    text-align: left;
-    color: black;
-    
-}
-#bloc a:hover
-{
-    color:#0065fc;
-}
 .hebergements
 {
     display:flex;
@@ -236,7 +227,6 @@ header
     margin-top:20px;
     background-color: #f2f2f2;
 }
-
 #bloc
 {
     display: flex;
@@ -245,7 +235,18 @@ header
     background-color: #f2f2f2; 
     width: 60%;
     border-radius: 20px;
-    padding:30px;
+    padding:25px;
+}
+#bloc a
+{
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    
+}
+#bloc a:hover
+{
+    color:#0065fc;
 }
                     /*****SECTION POPULAIRE*****/
 .fa-chart-line
@@ -321,7 +322,7 @@ header
     background-color: #f2f2f2;
     border-radius: 20px;
     width: 25%;
-    padding:30px;
+    padding:25px;
 }
 #dodo
 {
@@ -383,6 +384,9 @@ header
     height: 90%;
     box-shadow: -1px 5px 15px -3px #e3e3e3;
 }
+.pomegue{
+    margin-bottom:80px;
+}
 .pomegue a
 {
     display: flex;
@@ -424,7 +428,7 @@ header
 #choix_activite a
 {
     text-decoration: none;
-    color:black
+    color:black;
 }
 #choix_activite a:hover
 {
@@ -474,7 +478,7 @@ footer
 
 
                 /*****style mobile*****/
-@media screen and (min-width:300px) and (max-width:750px){
+@media screen and (min-width:320px) and (max-width:750px){
     #bloc_page{
         width: 100%;
     }
@@ -484,6 +488,7 @@ footer
         justify-content: center;
         margin-left:120px;
         margin-top: 20px;
+        padding-top:30px;
     }
     header img{
         width: 90px;
@@ -525,15 +530,18 @@ footer
     }
     .filtres ul li:first-child{
         order:1;
+        margin:5px
     }
     .filtres ul li:nth-child(3){
         order:2;
+        margin:5px;
     }
     .filtres ul li:nth-child(4){
         order:3;
     }
     .filtres ul li:nth-child(2){
-        order:4
+        order:4;
+        margin:5px;
     }
   
     .filtres ul{
@@ -578,8 +586,9 @@ footer
     }
     #pop{
         width: 95%;
-        padding-bottom:20px;
+        padding:10px;
         border-radius:0;
+        margin: 0;
     }
     .populaire .star{
         margin-top:-30px;
@@ -605,6 +614,8 @@ footer
         justify-content: space-between;
         margin-top: 20px;
         background-color: white;
+        margin: 0;
+        padding: 10px;
     }
     #bloc h2{
         margin-bottom:-50px;
@@ -639,9 +650,9 @@ footer
         width: 90%;
     }
     #activites{
-        width: 100%;
+        width: 95%;
         margin-top:-70px;
-        padding-left:20px;
+        padding:10px;
     }
                                             /*****FOOTER*****/
     .propos,.nos_hebergement,.assistance{
@@ -649,8 +660,7 @@ footer
     }
     footer{
         flex-direction: column;
-        width: 95%;
-        
+        width: 100%;
         background-color: #f2f2f2;
         margin-top:20px;
     }
@@ -711,7 +721,7 @@ footer
     }
     .dalon{
         width: 30%;
-        height:460px;
+        justify-content: space-between;
     }
     .notre_dame img,.longchamp img{
         height: 60%;
@@ -722,7 +732,9 @@ footer
     .notre_dame a,.longchamp a{
         width: 90%;
         height:80%;
-        margin-bottom:60px;
+    }
+    .notre_dame,.longchamp{
+        height:50%;
     }
     #choix_activite{
         width: 100%;
@@ -730,7 +742,6 @@ footer
     #activites{
         width: 97%;
         margin-top:-50px;
-        margin-left:15px;
         padding-left:20px;
         background-color: #f2f2f2;
         border-radius: 20px;
