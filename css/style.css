@@ -695,7 +695,7 @@ footer
         width: 95%;
     } 
     #choix .filtres{
-        width: 100%;
+        width: 110%;
         justify-content: space-around;
     }    
     .filtres ul{
@@ -711,7 +711,8 @@ footer
         flex-direction:row;
     }
     #pop{
-        width: 92%;
+        width: 110%;
+        padding:0;
         background-color: white;
     }
     .pop
