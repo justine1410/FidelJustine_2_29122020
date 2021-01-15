@@ -490,20 +490,22 @@ footer
         display: flex;
         justify-content: center;
         margin-top: 20px;
-        margin-left:120px;
+        margin-left:160px;
         padding-top:30px;
     }
     header img{
         width: 90px;
         margin-bottom:-15px;
+        padding-left:40px;
     }
     .menu{
         flex-wrap:wrap-reverse;
+        margin-bottom:-10px
     }
     .ancre{
-        margin-top:60px;
-        margin-bottom:-50px;
-        margin-left: -60px;
+        
+        margin-bottom:-30px;
+        margin-left: -80px;
         width: 100%;
         justify-content:space-between;
     }
