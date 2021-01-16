@@ -332,101 +332,138 @@ header
     margin-bottom:64px;
 }
                     /*****ACTIVITE*****/
-#activites h3
-{
-    margin:10px;
-    height:56px;
-}
-.port img, .les_calanques img{
-    width: 100%;
-    height: 90%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    object-fit: cover;
+
+.port a,.les_calanques a{
+    display: flex;
+    background-color: white;
     box-shadow: -1px 5px 15px -3px #e3e3e3;
-}
-.port,.les_calanques
-{
-    
-    width: 23%;
+    border-radius: 20px;
     height: 443px;
-    border-radius: 20px; 
-    box-shadow: -1px 5px 15px -3px #e3e3e3;
+    width: 100%;
+  }
+  .port a figure,.les_calanques a figure{
+    margin: 0;  
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .port a figure img,.les_calanques a figure img{
+    width: 100%;  
+    height: calc(100% - 60px);
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    
+  }
+  .port a figcaption,.les_calanques a figcaption{
+    margin: 0;
+    height: 60px;
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 0 0 20px 20px;
+  }
+  .port,.les_calanques{
+      width: 23%;
+  }
+.pomegue a{
+    display:flex;
+    background-color: white;
+    box-shadow:-1px 5px 15px -3px #e3e3e3;
+    border-radius:20px;
+    height:230px;
+    width:100%;
+}
+.pomegue a figure{
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    height: 100%;
+    width: 100%;
+}
+.pomegue a figure img{
+    width: 100%;
+    height:calc(100% - 60px);
+    border-radius:20px 20px 0 0;
+    object-fit:cover;
+}
+.pomegue a figcaption{
+    margin:0;
+    height: 60px;
+    width: 100%;
+    padding-left:20px;
+    border-radius:0 0 20px 20px;
 }
 
-.pomegue img
-{
+.frioul a{
+    display:flex;
+    background-color: white;
+    box-shadow: -1px 5px 15px 3px #e3e3e3 ;
+    border-radius:20px;
+    height:160px;
     width: 100%;
-    height: 180px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    object-fit: cover;
-    box-shadow: -1px 5px 15px -3px #e3e3e3;
 }
-.frioul img
-{
-    width: 100%;
-    height: 100px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    object-fit: cover;
-    box-shadow: -1px 5px 15px -3px #e3e3e3;
-}
-.frioul a
-{
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    width: 100%;
+.frioul a figure{
+    margin:0;
+    display:flex;
+    flex-direction:column;
     height: 100%;
-    box-shadow: -1px 5px 15px -3px #e3e3e3;
-}
-.frioul{
-    height:164px;
-}
-.pomegue{
-    height:235px;
-    box-shadow: -1px 5px 15px -3px #e3e3e3;
-    margin-bottom:45px;
-    border-radius: 20px;
-}
-.pomegue a
-{
-    
-    border-radius: 20px;
     width: 100%;
-    height:20%;
-    box-shadow: -1px 5px 15px -3px #e3e3e3;
+}
+.frioul a figure img{
+    width: 100%;
+    height:calc(100% - 60px);
+    border-radius: 20px 20px 0 0;
+    object-fit:cover;
+}
+.frioul a figcaption{
+    margin:0;
+    height: 60px;
+    width: 100%;
+    padding-left:20px;
+    border-radius:0 0 20px 20px;
 }
 .pofri{
+    display:flex;
+    flex-direction:column;
     width: 23%;
-    height:443px;
-   
+    height: 443px;
+    justify-content: space-between;
 }
-.notre_dame img,.longchamp img
-{
+.notre_dame a,.longchamp a{
+    display:flex;
+    background-color: white;
+    box-shadow: -1px 5px 15px 3px #e3e3e3;
+    border-radius:20px;
+    height:195px;
     width: 100%;
-    height: 70%;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    object-fit: cover;
-    box-shadow: -1px 5px 15px -3px #e3e3e3;
 }
-.notre_dame a,.longchamp a
-{
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    height: 209px;
-    box-shadow: -1px 5px 15px -3px #e3e3e3;
+.notre_dame a figure,.longchamp a figure{
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    width: 100%;
+}
+.notre_dame a figure img,.longchamp a figure img{
+    width: 100%;
+    height: calc(100% - 60px);
+    border-radius:20px 20px 0 0;
+    object-fit:cover;
+}
+.notre_dame a figcaption,.longchamp a figcaption{
+    margin:0;
+    height: 60px;
+    width: 100%;
+    padding-left:20px;
+    border-radius: 0 0 20px 20px;
 }
 .dalon
 { 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 23%;
     height:443px;
+    justify-content: space-between;
 }
 #choix_activite a
 {
@@ -697,13 +734,18 @@ footer
         width: 95%;
     } 
     #choix .filtres{
-        width: 90%;
+        width: 95%;
         justify-content: space-around;
     }    
     .filtres ul{
         width: 100%;
-
-    }        
+    }   
+    .filtres h4{
+        margin:15px 0 15px 0;
+    } 
+    .filtre a{
+        width:98% ;
+    }    
                                                 /*****SECTION HEBERGEMENT*****/
     #dodo{
         flex-direction: column-reverse;
@@ -713,7 +755,7 @@ footer
         flex-direction:row;
     }
     #pop{
-        width: 100%;
+        width: 95%;
         padding:0;
         background-color: white;
     }
@@ -733,7 +775,7 @@ footer
         margin-right:0px;
     }
     #bloc{
-        width: 95%;
+        width: 90%;
         margin-top:10px;
     }
                                             /*****ACTIVITE*****/
@@ -741,25 +783,28 @@ footer
     .port a,.les_calanques a{
         width: 90%;
     }
-    .port img,.les_calanques img{
+    .port a figure img,.les_calanques a figure img{
         height: 80%;
+    }
+    .port a figcaption,.les_calanques a figcaption{
+        padding:0;
     }
     .dalon{
         width: 25%;
         justify-content: space-between;
-    }
-    .notre_dame img,.longchamp img{
-        height: 60%;
-    }  
-    .pofri a{
-        width: 90%;
-    }
+    } 
     .notre_dame a{
         width: 100%;
         height:80%;
     }
     .notre_dame{
         height:50%;
+    }
+    .notre_dame a figcaption,.longchamp a figcaption{
+        padding:0;
+    }
+    .pomegue a figcaption,.frioul a figcaption{
+        padding:0;
     }
     #choix_activite{
         width: 100%;
@@ -777,8 +822,9 @@ footer
         width: 60%;
     }
     footer{
-        width: 90%;
+        width: 100%;
         background-color: #f2f2f2;
         margin-top:20px;
+        padding:0;
     }
 }
