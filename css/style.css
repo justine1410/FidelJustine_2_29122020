@@ -729,6 +729,9 @@ footer
     .propos,.nos_hebergement,.assistance{
         width: 60%;
     }
+    footer ul{
+        width: 100%;
+    }
     footer{
         flex-direction: column;
         width: 100%;
